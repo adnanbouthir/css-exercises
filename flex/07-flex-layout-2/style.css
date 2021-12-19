@@ -55,7 +55,8 @@ gap: 32px;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-
+  display: flex;
+  align-items: stretch;
   padding: 16px;
   height: 300px;
   width: 350px;
