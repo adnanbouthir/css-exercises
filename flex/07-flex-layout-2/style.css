@@ -44,19 +44,28 @@ body {
 .cards {
  border: 10px red solid;
  display: flex;
- flex-wrap: wrap;
  padding: 32px;
- gap: 32px
+gap: 32px;
+
 }
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  flex-grow: 0;
+  display: flex;
+  padding: 16px;
+  align-self: flex-start;
+  align-items: center;
 }
 
 .sidebar a {
   color: white;
   font-size: 24px;
   text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
